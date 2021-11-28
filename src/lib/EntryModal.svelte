@@ -1,6 +1,6 @@
 <script>
-    let emojiList=["worst: '😭',bad: '🙁',okay: '😐',good: '🙂',best: '😁'"]
-    var emoji
+    let emojiList={worst: '😭',bad: '🙁',okay: '😐',good: '🙂',best: '😁'};
+    let emoji ='😐';
 </script>
 
 
@@ -19,19 +19,19 @@
                 <div class="row">
                     <div class="col">
                         <form class="form-floating">
-                            <input type="number" class="form-control" id="dayInput" min="1" max="31"/>
+                            <input type="number" class="form-control" id="dayInput" value="1" min="1" max="31"/>
                             <label for="dayInput">Day</label>
                         </form>
                     </div>
                     <div class="col">
                         <form class="form-floating">
-                            <input type="number" class="form-control" id="monthInput" min="1" max="12" />
+                            <input type="number" class="form-control" id="monthInput" value="1" min="1" max="12" />
                             <label for="monthInput">Month</label>
                         </form>
                     </div>
                     <div class="col">
                         <form class="form-floating">
-                            <input type="number" class="form-control" id="yearInput" min="2000"/>
+                            <input type="number" class="form-control" id="yearInput" value="2021" min="2021"/>
                             <label for="yearInput">Year</label>
                         </form>
                     </div>
