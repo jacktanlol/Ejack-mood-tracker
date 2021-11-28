@@ -1,5 +1,5 @@
 <script>
-    var emojiList=["worst: '😭',bad: '🙁',okay: '😐',good: '🙂',best: '😁'"]
+    let emojiList=["worst: '😭',bad: '🙁',okay: '😐',good: '🙂',best: '😁'"]
     var emoji
 </script>
 
