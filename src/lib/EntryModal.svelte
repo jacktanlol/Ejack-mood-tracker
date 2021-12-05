@@ -1,6 +1,12 @@
 <script>
     let emojiList={worst: '😭',bad: '🙁',okay: '😐',good: '🙂',best: '😁'};
     let emoji ='😐';
+    // let day = ‘1’;
+    // let month = ‘1’;
+    // let year = ‘2021’;
+    // let mood =‘Okay’;
+    // let comment = 'This is a comment';
+
 </script>
 
 
@@ -19,19 +25,19 @@
                 <div class="row">
                     <div class="col">
                         <form class="form-floating">
-                            <input type="number" class="form-control" id="dayInput" value="1" min="1" max="31"/>
+                            <input type="number" class="form-control"   id="dayInput" value="1" min="1" max="31"/>
                             <label for="dayInput">Day</label>
                         </form>
                     </div>
                     <div class="col">
                         <form class="form-floating">
-                            <input type="number" class="form-control" id="monthInput" value="1" min="1" max="12" />
+                            <input type="number" class="form-control"   id="monthInput" value=" 1" min="1" max="12" />
                             <label for="monthInput">Month</label>
                         </form>
                     </div>
                     <div class="col">
                         <form class="form-floating">
-                            <input type="number" class="form-control" id="yearInput" value="2021" min="2021"/>
+                            <input type="number" class="form-control"   id="yearInput" value="2021" min="2021"/>
                             <label for="yearInput">Year</label>
                         </form>
                     </div>
@@ -56,7 +62,7 @@
             </div>
                 </div>
                 <div class="form-floating">
-                    <textarea class="form-control" id="comment" />
+                    <textarea class="form-control"  id="comment" />
                     <label for="commentTextarea">Comments</label>
                 </div>
    		 </div>
