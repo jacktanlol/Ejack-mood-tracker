@@ -30,7 +30,6 @@
 
     <div class="list-group mb-3">
    	 <!-- Individual Entries -->
-    	<Entry />
         {#await getEntries()}
     <p>Fetching data...</p>
 {:then data}
