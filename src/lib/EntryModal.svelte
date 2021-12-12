@@ -1,6 +1,12 @@
 <script>
 import supabase from '$lib/db';
-
+let emojiList={worst: '😭',bad: '🙁',okay: '😐',good: '🙂',best: '😁'};
+    let emoji ='😐';
+    let day ="1"
+    let month="1"
+    let year ="2021"
+    let mood= "Okay"
+    let comment="This is a comment"
 // Insert entry
 async function saveEntry() {
     const { error } = await supabase.from('moodEntries').insert(
@@ -17,13 +23,7 @@ async function saveEntry() {
 
     location.reload(); // Refresh the page.
 }
-    let emojiList={worst: '😭',bad: '🙁',okay: '😐',good: '🙂',best: '😁'};
-    let emoji ='😐';
-    let day ="1"
-    let month="1"
-    let year ="2021"
-    let mood= "Okay"
-    let comment="This is a comment"
+   
 </script>
 
 
