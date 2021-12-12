@@ -1,6 +1,6 @@
 
 
-<nav class="navbar navbar-expand-xl navbar-light bg-info">
+<nav class="navbar navbar-expand-xl navbar-light bg-primary">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Mood Tracker</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
